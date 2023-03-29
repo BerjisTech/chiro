@@ -1,5 +1,6 @@
 class StaticpagesController < ApplicationController
   def home
+    render component: 'Home', props: { user: 'current_user' }
   end
 
   def about

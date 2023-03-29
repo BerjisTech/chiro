@@ -1,0 +1,28 @@
+{
+    "entrypoints": {
+      "application": {
+        "js": [
+          "/packs/js/application-123456789.js"
+        ],
+        "css": [
+          "/packs/css/application-123456789.css"
+        ]
+      }
+    },
+    "assets": {
+      "/packs/js/application-123456789.js": {
+        "name": "application.js",
+        "size": 1176589,
+        "digest": "123456789abcdef",
+        "chunkNames": [
+          "application"
+        ]
+      },
+      "/packs/css/application-123456789.css": {
+        "name": "application.css",
+        "size": 38658,
+        "digest": "123456789abcdef"
+      }
+    }
+  }
+  
